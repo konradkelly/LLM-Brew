@@ -3,9 +3,18 @@
   padding: 0;
 }
 
+
 header {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 30px;
+  padding: 45px 60px;
+  padding-bottom: 35px;
   text-align: left;
-  color: darkred;
+  background-color: darkred;
+  color: darksalmon;
+  font-size: 3.4rem;
+  font-weight: bolder;
+}
+
+.header-Btn {
+  margin-right: 10px;
 }

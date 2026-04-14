@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <section>
+    <>
       <Header />
       <ContentSection 
         Name="hi"
@@ -16,7 +16,7 @@ function App() {
         Rating="hi"
         Review="hi"
       />
-    </section>
+    </>
   )
 }
 
