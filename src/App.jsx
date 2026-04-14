@@ -9,13 +9,23 @@ function App() {
   return (
     <>
       <Header />
-      <ContentSection 
-        Name="hi"
-        Price="hi"
-        Description="hi"
-        Rating="hi"
-        Review="hi"
-      />
+      <div className="content-sections">
+        <ContentSection 
+          Name="hi"
+          Price="hi"
+          Description="hi"
+          Rating="hi"
+          Review="hi"
+        />
+        <ContentSection 
+          Name="hi"
+          Price="hi"
+          Description="hi"
+          Rating="hi"
+          Review="hi"
+        />
+        
+      </div>
     </>
   )
 }
