@@ -3,17 +3,6 @@ img {
     height: 40px;
 }
 
-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    align-items: flex-start;
-    /* Ensures children collapse into two rows if needed */
-    max-width: 900px;
-    margin: 0 auto 2rem auto;
-}
-
 section > * {
     flex: 1 1 40%;
     min-width: 250px;
