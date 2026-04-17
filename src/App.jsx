@@ -3,8 +3,6 @@ import Hero from './Hero.jsx'
 import ContentSection from './Content/ContentSection'
 import Pricing from './Pricing.jsx'
 import Reviews from './Reviews.jsx'
-import './App.css'
-import './index.css'
 
 function App() {
   const llms = [

@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
 :root {
   /* Shared Coffee House palette */
   --coffee-bg: #7a4d2f;

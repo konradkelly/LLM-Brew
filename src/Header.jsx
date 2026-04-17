@@ -1,4 +1,4 @@
-import './HeaderStyles.css'
+import './Header.css'
 import coffeeCup from './images/brown-coffee-cup.png'
 
 export default function Header() {
