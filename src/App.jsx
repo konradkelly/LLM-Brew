@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import Header from './Header.jsx'
+import Hero from './Hero.jsx'
 import ContentSection from './Content/ContentSection'
 import Pricing from './Pricing.jsx'
 import Reviews from './Reviews.jsx'
@@ -53,8 +53,9 @@ function App() {
   return (
     <>
       <Header />
-      <div className="content-sections">
-        {llms.map((llm, idx) => (
+      <Hero />
+      <div id="models" className="content-sections">
+        {llms.map((llm) => (
           <ContentSection
             key={llm.Name}
             Name={llm.Name}
