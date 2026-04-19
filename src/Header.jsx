@@ -7,9 +7,11 @@ export default function Header() {
             <header className="header">
                 <img src={coffeeCup} alt="Brown Coffee Cup" className="header-logo" />
                 <h1>LLM-Brew</h1>
-                <button className="btn header-Btn">Models</button>
-                <button className="btn header-Btn">Datasets</button>
-                <button className="btn header-Btn">Pricing</button>
+                <nav className="header-nav">
+                    <a href="#models" className="btn header-Btn">Models</a>
+                    <button className="btn header-Btn">Datasets</button>
+                    <a href="#pricing" className="btn header-Btn">Pricing</a>
+                </nav>
             </header>
         </div>
     );
